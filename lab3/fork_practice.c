@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <unistd.h>
 #include <sys/types.h>
-// null
 int main()
 {
     pid_t pid1, pid2;
