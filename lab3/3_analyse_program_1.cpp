@@ -17,10 +17,12 @@ int main(void)
         printf("Input a value in child: ");
         scanf("%d", &i);
         printf("i=%d\n", i);
+        printf("&i=%d\n", &i);
     }
     else /* parent run */
     {
         wait(nullptr);
         printf("After child runs, in parent, i=%d\n", i);
+        printf("After child runs, in parent, &i=%d\n", &i);
     }
 }
