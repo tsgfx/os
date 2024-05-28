@@ -1,3 +1,4 @@
+// Copyright@Guo Ruichao
 #include <stdio.h>
 
 int main()
